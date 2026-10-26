@@ -54,6 +54,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--cyan);outline-offse
   background:radial-gradient(circle at 30% 25%,#3b2a6b,#12121c 60%,#0a0a0f);border:1px solid rgba(139,92,246,.5);
   box-shadow:0 0 0 1px rgba(255,255,255,.06),0 30px 80px rgba(139,92,246,.35)}
 .avatar-letters{font-size:4.2rem;font-weight:800;letter-spacing:-.05em;background:linear-gradient(120deg,#fff,var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.avatar-photo{width:100%;height:100%;object-fit:cover;object-position:center 38%;border-radius:50%;display:block;position:relative;z-index:1}
 .avatar-ring{position:absolute;inset:-18px;border-radius:50%;border:1px dashed rgba(34,211,238,.5);animation:spin 26s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 .avatar-note{color:var(--muted);font-size:.85rem;text-align:center;max-width:16rem}

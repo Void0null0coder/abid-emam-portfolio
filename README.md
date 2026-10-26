@@ -63,12 +63,10 @@ Then open http://localhost:8000/ in a browser.
 
 - **A project:** edit its card in `index.html` (name, description, tags,
   links). Keep the description tied to what the project actually does.
-- **The photo:** the hero currently shows a stylised "AE" abstract
-  portrait. To use a real photo, save it as `photo.jpg` next to
-  `index.html` and replace the `.avatar-orb` block in `index.html` with:
-  `<img class="avatar-photo" src="photo.jpg" alt="Portrait of Abid Emam">`
-  and add `.avatar-photo { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }`
-  to `styles.css`.
+- **The photo:** the hero shows Abid's photo (`photo.jpg`, a square
+  crop of the portrait he supplied, shown inside the circular frame).
+  To swap it later, just replace `photo.jpg` with a new square image
+  of the same name — no HTML change needed.
 - **Email / socials:** add them to the contact section in `index.html`
   only once the addresses are confirmed — never guess one.
 - **Colours:** edit the CSS variables at the top of `styles.css`
