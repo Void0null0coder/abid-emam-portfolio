@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abid Emam — Medical Student &amp; Creative Developer</title>
+<meta name="description" content="Abid Emam is an MBBS student at Dinajpur Medical College, Bangladesh, building useful digital tools at the intersection of medicine, technology and ideas.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#projects">Skip to projects</a>
+
+<header class="nav" id="top">
+  <a class="logo" href="#top" aria-label="Abid Emam home">AE<span>.</span></a>
+  <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">Menu</button>
+  <nav class="nav-links" id="navLinks">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Exploring</a>
+    <a href="#timeline">Path</a>
+    <a href="#future">Next</a>
+    <a class="nav-cta" href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <canvas id="heroCanvas" aria-hidden="true"></canvas>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <p class="eyebrow reveal">Dinajpur, Bangladesh &nbsp;·&nbsp; Medicine × Technology</p>
+      <h1 class="reveal">Abid <span class="grad">Emam</span></h1>
+      <p class="hero-title reveal">Medical Student &amp; Creative Developer</p>
+      <p class="hero-tag reveal">Building at the intersection of Medicine, Technology &amp; Ideas.</p>
+      <p class="hero-lede reveal">I study medicine — and I build things. Timers that keep a study day honest, exam trackers built for real medical students, and small tools that turn an idea into something you can actually use.</p>
+      <div class="hero-actions reveal">
+        <a class="btn btn-primary" href="#projects">Explore Projects</a>
+        <a class="btn btn-ghost" href="#about">About Me</a>
+      </div>
+      <div class="hero-chips reveal" aria-label="Three things this site is about">
+        <span>1 · I study medicine</span>
+        <span>2 · I build with technology</span>
+        <span>3 · I'm constantly learning</span>
+      </div>
+    </div>
+    <div class="hero-avatar reveal" aria-label="Stylised abstract portrait placeholder">
+      <div class="avatar-orb">
+        <span class="avatar-letters">AE</span>
+        <span class="avatar-ring" aria-hidden="true"></span>
+      </div>
+      <p class="avatar-note">Abstract portrait — replace with a real photo anytime (see README).</p>
+    </div>
+    <a class="scroll-hint" href="#about">Scroll ↓</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <p class="section-label reveal">About</p>
+      <h2 class="reveal">A medical student<br>who likes to <span class="grad">build</span>.</h2>
+      <div class="about-grid">
+        <p class="about-bio reveal">I'm an MBBS student at Dinajpur Medical College, Bangladesh, with a strong interest in software development, AI, productivity systems, and building useful digital tools. I enjoy turning ideas into practical products, especially tools that solve real problems in education, productivity, and everyday life. My goal is to combine medical knowledge with technology to create things that genuinely help people.</p>
+        <div class="about-card glass reveal">
+          <h3>Why medicine makes the building better</h3>
+          <p>Studying medicine means living the problems first — long syllabuses, revision cycles, and days that need a plan. The tools here are built around those real educational needs, not around a template.</p>
+          <ul class="tick-list">
+            <li>MBBS — Dinajpur Medical College, Bangladesh</li>
+            <li>Based in Dinajpur, Bangladesh</li>
+            <li>Longer-term interests: medicine, technology, entrepreneurship and public service</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <p class="section-label reveal">Selected work</p>
+      <h2 class="reveal">Tools built for <span class="grad">real days</span>.</h2>
+      <p class="section-lede reveal">Every project below is linked to its real repository and, where one exists, its real live demo. Nothing here is a mock-up project.</p>
+
+      <div class="project-grid">
+        <!-- AE-TIMER -->
+        <article class="project-card reveal" data-tilt>
+          <div class="project-preview timer-preview" aria-hidden="true">
+            <div class="mini-board">
+              <span class="mini-label">Study</span>
+              <div class="mini-timer"><strong>25:00</strong><span>Focus · Ready</span></div>
+              <div class="mini-timer dim"><strong>05:00</strong><span>Short break · Ready</span></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>AE-Timer</h3>
+            <p class="project-problem"><strong>Problem:</strong> a study day needs more than one countdown — and a timer that deletes itself when it finishes is no use the next day.</p>
+            <p>AE-Timer is a multi-board timer app: boards with independent, concurrent timers, board totals, daily / weekly / monthly history, and JSON export and import, so progress is never locked inside one session. Timers finish and reset instead of disappearing.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Single-file app</span></div>
+            <div class="project-links">
+              <a href="https://void0null0coder.github.io/AE-Timer/" target="_blank" rel="noopener">Live demo →</a>
+              <a href="https://github.com/Void0null0coder/AE-Timer" target="_blank" rel="noopener">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- AYAATSYNC -->
+        <article class="project-card reveal" data-tilt>
+          <div class="project-preview ayat-preview" aria-hidden="true">
+            <p class="ayat-arabic">لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ</p>
+            <p class="ayat-text">“If you are grateful, I will surely increase you [in favor].”</p>
+            <p class="ayat-ref">Surah Ibrahim · 14:7</p>
+          </div>
+          <div class="project-body">
+            <h3>AyaatSync</h3>
+            <p class="project-problem"><strong>Problem:</strong> finding a verse that speaks to how you feel right now, without searching through a whole text.</p>
+            <p>AyaatSync is a mood-based Qur'an verse app. It holds 80 ayats — 20 for each of four moods (Happy, Sad, Angry, Anxious) — each shown with its original Arabic script, an English translation, and its Surah reference.</p>
+            <div class="tags"><span>React</span><span>TypeScript</span><span>Vite</span></div>
+            <div class="project-links">
+              <a href="https://stackblitz.com/edit/vitejs-vite-b8bec2en" target="_blank" rel="noopener">StackBlitz workspace →</a>
+              <a href="https://github.com/Void0null0coder/AyaatSync" target="_blank" rel="noopener">GitHub →</a>
+            </div>
+            <p class="project-note">Note: the repository's live demo is its StackBlitz workspace, not a GitHub Pages site.</p>
+          </div>
+        </article>
+
+        <!-- DJMC EXAM TODO -->
+        <article class="project-card reveal" data-tilt>
+          <div class="project-preview todo-preview" aria-hidden="true">
+            <div class="mini-board">
+              <span class="mini-label">DjMC Exam Todo</span>
+              <label><input type="checkbox" checked disabled> Pharma · 16 Nov</label>
+              <label><input type="checkbox" disabled> Forensic · 22 Nov</label>
+              <div class="mini-bar"><span style="width:42%"></span></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>DjMC Exam Todo</h3>
+            <p class="project-problem"><strong>Problem:</strong> a 29-day medical exam plan with 60 college items is impossible to hold in your head — or in a notebook that never reminds you what comes next.</p>
+            <p>An exam-oriented task page for Dinajpur Medical College's second professional exams: 140 day tasks across 29 days, plus a 60-item tracker with five revision stages per item, a countdown to both exams, and progress saved on your device with JSON export and import.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>localStorage</span></div>
+            <div class="project-links">
+              <a href="https://void0null0coder.github.io/djmc-exam-todo/" target="_blank" rel="noopener">Live demo →</a>
+              <a href="https://github.com/Void0null0coder/djmc-exam-todo" target="_blank" rel="noopener">GitHub →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS / EXPLORING -->
+  <section class="section" id="skills">
+    <div class="wrap">
+      <p class="section-label reveal">What I'm exploring</p>
+      <h2 class="reveal">Interests, <span class="grad">not claims</span>.</h2>
+      <p class="section-lede reveal">These are areas I'm actively exploring and building in — presented as interests, not as measured proficiency.</p>
+      <div class="skill-grid">
+        <div class="skill-card glass reveal"><h3>Software development</h3><p>Web projects, built end to end and shipped live.</p></div>
+        <div class="skill-card glass reveal"><h3>AI-assisted development</h3><p>Experimenting with AI as a building partner, not a shortcut.</p></div>
+        <div class="skill-card glass reveal"><h3>Productivity &amp; workflow design</h3><p>Timers, trackers and systems that make a hard day easier to run.</p></div>
+        <div class="skill-card glass reveal"><h3>Digital product development</h3><p>Turning an idea into something people can open and use.</p></div>
+        <div class="skill-card glass reveal"><h3>Medical education</h3><p>Learning systems shaped by what medical students actually face.</p></div>
+        <div class="skill-card glass reveal"><h3>Open source</h3><p>Public repos, readable code, and tools anyone can inspect.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="section" id="timeline">
+    <div class="wrap">
+      <p class="section-label reveal">Path</p>
+      <h2 class="reveal">Where I'm <span class="grad">coming from</span>.</h2>
+      <ol class="timeline">
+        <li class="reveal"><span class="tl-dot"></span><div><strong>MBBS student</strong><p>Dinajpur Medical College, Bangladesh — currently studying, with second professional exams in Pharma and Forensic Medicine.</p></div></li>
+        <li class="reveal"><span class="tl-dot"></span><div><strong>Building in public</strong><p>AE-Timer, AyaatSync and DjMC Exam Todo — three very different tools, one habit: ship something useful, then improve it.</p></div></li>
+        <li class="reveal"><span class="tl-dot"></span><div><strong>Next: medicine × technology × enterprise</strong><p>Longer-term ambitions span medicine, technology, entrepreneurship and public service — including exploring a digital presence for Boi Bichitra Rajshahi, a longstanding family bookshop.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- FUTURE -->
+  <section class="section" id="future">
+    <div class="wrap">
+      <p class="section-label reveal">Next experiments</p>
+      <h2 class="reveal">Open <span class="grad">questions</span>, not promises.</h2>
+      <div class="future-grid">
+        <div class="future-card glass reveal">
+          <h3>Boi Bichitra Rajshahi — digital presence</h3>
+          <p>A longstanding family bookshop with an interest in expanding online. A possible future project in digital transformation — what a bookshop's website should actually do for its readers.</p>
+        </div>
+        <div class="future-card glass reveal">
+          <h3>More open-source tools</h3>
+          <p>Small, useful, public. If a tool saves me an hour a week, it probably saves someone else one too — that's the bar for the next one.</p>
+        </div>
+        <div class="future-card glass reveal">
+          <h3>Medicine × AI experiments</h3>
+          <p>Careful experiments at the edge of medical learning and AI assistance — built to help study, never to replace judgement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <p class="section-label reveal">Contact</p>
+      <h2 class="reveal">Let's <span class="grad">talk</span>.</h2>
+      <p class="section-lede reveal">The fastest way to reach my work is GitHub. A public email address and other social links will be added here once confirmed — no placeholder addresses are listed.</p>
+      <div class="contact-card glass reveal">
+        <a class="btn btn-primary" href="https://github.com/Void0null0coder" target="_blank" rel="noopener">GitHub · Void0null0coder →</a>
+        <p class="contact-note">Email and social links: to be confirmed by Abid before publication here.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© 2026 Abid Emam · Dinajpur, Bangladesh</p>
+  <p class="footer-small">Built with plain HTML, CSS and JavaScript — no backend, no tracking, no heavy frameworks. The 3D hero is drawn live in your browser.</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
